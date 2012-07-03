@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plonger", "plonger\plonger.csproj", "{dec817f7-d1fd-48d4-82c6-f9e278141bcf}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC817F7-D1FD-48D4-82C6-F9E278141BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC817F7-D1FD-48D4-82C6-F9E278141BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC817F7-D1FD-48D4-82C6-F9E278141BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC817F7-D1FD-48D4-82C6-F9E278141BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
