@@ -3,8 +3,10 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	x:Class="plonger.MainWindow"
 	x:Name="Window"
-	Title="MainWindow"
-	Width="640" Height="480">
+	Title="Plonger"
+	Width="300" Height="100"
+    MinWidth="300" MinHeight="100"
+    MaxWidth="300" MaxHeight="100">
 
 	<Grid x:Name="LayoutRoot"/>
 </Window>
