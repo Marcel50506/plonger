@@ -10,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using System.Diagnostics;
+
 namespace plonger
 {
 	/// <summary>
@@ -25,5 +27,13 @@ namespace plonger
 
             controller = new Controller(this);
 		}
+
+        private void textBox1_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                controller.run(InsBox.Text);
+            }
+        }
 	}
 }

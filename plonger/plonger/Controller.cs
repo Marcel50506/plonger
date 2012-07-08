@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Diagnostics;
 
 namespace plonger
 {
@@ -14,6 +15,13 @@ namespace plonger
             window = _window;
 
             // Load XML file
+        }
+
+        public void run(String _key)
+        {
+            Debug.WriteLine(_key);
+
+            // Search program for the string
         }
     }
 }

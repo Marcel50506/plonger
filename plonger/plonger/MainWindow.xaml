@@ -8,5 +8,7 @@
     MinWidth="300" MinHeight="100"
     MaxWidth="300" MaxHeight="100">
 
-	<Grid x:Name="LayoutRoot"/>
+	<Grid x:Name="LayoutRoot">
+        <TextBox Height="29" HorizontalAlignment="Left" Margin="22,13,0,0" Name="InsBox" VerticalAlignment="Top" Width="233" PreviewKeyDown="textBox1_PreviewKeyDown" />
+    </Grid>
 </Window>
